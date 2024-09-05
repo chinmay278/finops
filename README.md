@@ -1,4 +1,4 @@
-![azure-logo](.images/azure-logo-384.png)
+![azure-logo](azure-logo-384.png)
 # Azure FinOps Workbook (Work In Progress)
 
 ## Overview
@@ -9,26 +9,26 @@ Data within your Azure environment is visualized along with the relevant recomme
 
 > **Note:** The Workbook is provided as an example and is a work in progress.
 
-![workbook](.images/finops-workbook-1.png)
+![workbook](finops-workbook-1.png)
 
 ## What's Included?
 
 - Hybrid License Audit
-![hybrid-example](.images/hybrid-licensing-example.png)
+![hybrid-example](hybrid-licensing-example.png)
 
 - Tagging Audit
-![tag-example](.images/resource-tag-example.png)
+![tag-example](resource-tag-example.png)
 
 - Practical FinOps / Automation examples
 
 - Cost Optmization insights for Storage Accounts, AKS, Log Analytics, Orphan resources, Recovery services App Services and Virtual Machines.
-![storageacc-example](.images/storageaccount-example.png)
+![storageacc-example](storageaccount-example.png)
 
 ## PowerBI Report
 
 This Workbook does not replace the need to setup an organizational view to visualize cloud costs. My coworker Chris has created an amazing PowerBI report which can be imported to quick start viewing this data in PowerBI: [PBX Report](https://github.com/chris-bowman/Azure-Cost-Reporting/tree/main/Power%20BI%20Report).
 
-![power-bi-report](.images/powerbi-report-cost.png)
+![power-bi-report](powerbi-report-cost.png)
 
 ## Workbook Requirements
 
@@ -45,13 +45,13 @@ To use this Workbook you need to:
 1. Copy the content from the file `workbook.json`.
 
 2. Open the [Azure Workbook](https://ms.portal.azure.com/#view/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/~/workbooks/menuId/workbooks) page and click `New`.
-![new-workbook](.images/workbook-new.png)
+![new-workbook](workbook-new.png)
 3. Click on the `code` button.
-![code-button](.images/workbook-developer-import.png)
+![code-button](workbook-developer-import.png)
 4. Paste the content copied in step 1 into the page and click `Apply`.
-![import](.images/workbook-import.png)
+![import](workbook-import.png)
 5. Save the Workbook (if you have permissions) and click `Done Editing`.
-![save](.images/workbook-save.png)
+![save](workbook-save.png)
 
 ## What's Coming
 
